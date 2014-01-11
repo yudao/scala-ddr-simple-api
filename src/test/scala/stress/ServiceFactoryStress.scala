@@ -1,10 +1,8 @@
 import net.yudao.w3c.ddr.simple.exceptions.{InitializationException, SystemException}
-import net.yudao.w3c.ddr.simple.{Service, ServiceFactory}
+import net.yudao.w3c.ddr.simple.ServiceFactory
 import org.specs2.mutable._
 
 class ServiceFactoryStress extends Specification {
-
-  val service1:Service = ServiceFactory.newService("mobi.example.DDRService", "http://www.w3.org/2008/01/DDR-Core-Vocabulary", Map("property1"->"value1", "property2"->"value2"))
 
   object o1 {
     def apply() = ServiceFactory.newService("mobi.example.DDRService", null, null)
