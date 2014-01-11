@@ -28,7 +28,7 @@ sbt test
 In your build.sbt:
 
 ```scala
-RootProject( uri("git://github.com/yudao/scala-ddr-simple-API.git#v1.0") )
+RootProject( uri("git://github.com/yudao/scala-ddr-simple-API.git#1.0") )
 ```
 
 ## Usage
