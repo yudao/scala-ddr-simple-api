@@ -3,7 +3,6 @@
 By [Yudao](https://github.com/yudao/).
 
 [![Build Status](https://api.travis-ci.org/yudao/scala-ddr-simple-api.png?branch=master)](http://travis-ci.org/yudao/scala-ddr-simple-api)
-[![Code Climate](https://codeclimate.com/github/yudao/scala-ddr-simple-api.png)](https://codeclimate.com/github/yudao/scala-ddr-simple-api)
 
 **Scala DDR Simple Api** is a simple port of the W3C Java DDR Simple API which can be found [here](http://www.w3.org/TR/DDR-Simple-API/DDRSimpleAPI.jar) and his [javadoc](http://www.w3.org/TR/DDR-Simple-API/javadoc/).
 
