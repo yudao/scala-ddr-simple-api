@@ -17,7 +17,7 @@ object ServiceFactory {
         service.initialize(defaultVocabulary, configuration)
         service
       } catch {
-        case e@(_: IllegalAccessException | _: ClassNotFoundException) =>
+        case e@(_: IllegalAccessException | _: ClassNotFoundException ) =>
           throw new InitializationException(InitializationException.INITIALIZATION_ERROR, e)
         case _: Exception => throw new SystemException(SystemException.CANNOT_PROCEED, "")
       }
